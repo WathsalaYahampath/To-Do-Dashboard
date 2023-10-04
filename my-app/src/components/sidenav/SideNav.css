@@ -1,0 +1,30 @@
+.colounmn{
+    float:left;
+    width: 20%;
+    background-color: #33074F;
+    height: 100vh;
+}
+
+.box{
+    background-color: #EBE6ED1A;
+    height: 10vh;
+    text-align: center;
+    line-height: 3; /* Adjust this value to move the text lower */
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 20px; 
+}
+
+
+button{
+    background-color: #EBE6ED1A;
+    color: #FFFFFF;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 7vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    height: 5vh;
+}
