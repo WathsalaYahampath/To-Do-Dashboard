@@ -1,4 +1,26 @@
 .Container{
+    float:right;
+    width: 80%;
     background-color: yellowgreen;
-    height: 100vh;
+    height: 110vh;
+    margin: 1;
+}
+
+.alert1{
+    align-items: end;
+
+}
+
+.card{
+
+    width: 50%;
+}
+
+
+.card-modification{
+
+    background-color: aqua;
+    color: blanchedalmond;
+    width: 50%;
+
 }

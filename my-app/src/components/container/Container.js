@@ -4,15 +4,39 @@ import './Container.css';
 export default function Container() {
   return (
     <div className='Container'>
-        gfjgfjgfjgfjgfj
-        <div class="card border-success mb-3" style="max-width: 18rem;">
-                <div class="card-header bg-transparent border-success">Header</div>
-                    <div class="card-body text-success">
-                        <h5 class="card-title">Success card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                <div class="card-footer bg-transparent border-success">Footer</div>
+        <div className='alert'>
+            <div class="alert alert-warning alert-dismissible fade show alert1" role="alert">
+            <h5>Welcome Back. Jhon Doe</h5>
+            <p> The end of the year is coming. Are you planning your performance interviews? You can do this super efficiently with Acmy.</p>
+            <href>Look here for more information</href> 
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
         </div>
+
+        <div className='task'>
+            <div class="card card-modification" style={{ width: '50%' }}>
+            <div class="card-header">
+                Featured
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+
+        </div>
+        
+       
     </div>
 
     
