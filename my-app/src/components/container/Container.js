@@ -13,6 +13,8 @@ function formatDate(dateString) {
   }
 
 export default function Container() {
+
+    
     const alertStyle = {
         textAlign: 'left', // Set the text-align property to 'left'
       };
@@ -41,6 +43,10 @@ export default function Container() {
         // Function to handle page navigation
         const handlePageChange = (newPage) => {
             setCurrentPage(newPage);
+        
+        
+         
+        
         };
 
   
@@ -51,14 +57,14 @@ export default function Container() {
         <div className='alert' style={alertStyle}>
             <div class="alert alert-warning alert-dismissible fade show alert1" role="alert">
             <h5>Welcome Back. Jhon Doe</h5>
-            <p> The end of the year is coming. Are you planning your performance interviews? You can do this super efficiently with Acmy.</p>
-            <href>Look here for more information</href> 
+            <p style={{ color: '#757575' }}> The end of the year is coming. Are you planning your performance interviews? You can do this super efficiently with Acmy.</p>
+            <a href="www.google.com" style={{ color: '#BC006D', textDecoration: 'underline' }}>Look here for more information</a> 
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         </div>
-
-        <div className='task'>
-            <div class="card card-modification" style={{ width: '50%' }}>
+     <div className='Container2'>
+         <div className='task'>
+            <div class="card card-modification" style={{ width: '100%' }}>
             <div class="card-header">
                 Task
             </div>
@@ -146,6 +152,25 @@ export default function Container() {
             )}
             </div>
         </div>
+
+     </div>
+       
+     </div>
+
+
+
+
+
+
+        <div className="card Activity" style={{ width: '30%' }}>
+            <div class="card-header">
+                Featured
+            </div>
+            <ul className="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
 
         </div>
         
