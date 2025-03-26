@@ -3,6 +3,9 @@
 ## Overview
 This is a React-based To-Do Dashboard that fetches tasks from a mock API and displays them with priority indicators. Users can navigate through tasks using pagination and mark tasks as done.
 
+![image](https://github.com/user-attachments/assets/0219cfb2-5b03-4378-a9db-24e2dda8ac08)
+
+
 ## Features
 - Fetches to-do tasks from an API.
 - Displays task priority using visual indicators.
