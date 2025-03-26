@@ -1,39 +1,47 @@
-# To-Do-Dashboard
+# To-Do Dashboard
 
-Getting Started
-===============
+## Overview
+This is a React-based To-Do Dashboard that fetches tasks from a mock API and displays them with priority indicators. Users can navigate through tasks using pagination and mark tasks as done.
+
+## Features
+- Fetches to-do tasks from an API.
+- Displays task priority using visual indicators.
+- Shows task completion status.
+- Pagination support for task navigation.
+- Includes an alert section for user notifications.
+
+## Technologies Used
+- React
+- Bootstrap
+- CSS
+
+## Installation
+
+### Prerequisites
+Make sure you have Node.js installed. You can download it from [Node.js official site](https://nodejs.org/).
+
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/to-do-dashboard.git
+   cd to-do-dashboard
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## Usage
+- The application fetches tasks from `https://6363c8f68a3337d9a2e7d805.mockapi.io/api/to-do`.
+- Each task has a priority (Low, Medium, High) and a completion status.
+- Tasks can be marked as "done."
+- Users can navigate between tasks using pagination.
+
+## Contributions
+Feel free to contribute by creating a pull request. Ensure your code follows best practices and is well-documented.
 
 
-To get started with this project, follow these steps:
-
-
-
-1.Clone this repository to your local machine:
-bash
-git clone https://github.com/yourusername/your-react-project.git
-
-
-
-2.Change into the project directory:
-bash
-cd your-react-project
-
-
-
-3.Install project dependencies using npm or yarn:
-bash
-npm install
-# or
-yarn install
-
-
-
-4.Start the development server:
-bash
-npm start
-# or
-yarn start
-
-
-
-5.Open your browser and navigate to http://localhost:3000 to view the application.
